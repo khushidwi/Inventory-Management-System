@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+.login-page{
+
+    width:100%;
+    min-height:100vh;
+
+    background:linear-gradient(135deg,#2563eb,#3b82f6,#06b6d4);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:30px;
+
+}
+
+.login-card{
+
+    width:430px;
+
+    background:white;
+
+    border-radius:25px;
+
+    padding:40px;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.15);
+
+}
+
+.login-title{
+
+    text-align:center;
+
+    font-size:34px;
+
+    font-weight:bold;
+
+    color:#1e3a8a;
+
+}
+
+.login-subtitle{
+
+    text-align:center;
+
+    color:#666;
+
+    margin:12px 0 30px;
+
+}
+
+.role-switch{
+
+    display:flex;
+
+    background:#edf2ff;
+
+    border-radius:50px;
+
+    overflow:hidden;
+
+    margin-bottom:30px;
+
+}
+
+.role-btn{
+
+    flex:1;
+
+    border:none;
+
+    background:none;
+
+    padding:15px;
+
+    cursor:pointer;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.role-btn.active{
+
+    background:#2563eb;
+
+    color:white;
+
+}
+
+.form-group{
+
+    margin-bottom:22px;
+
+}
+
+.form-group label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    font-weight:600;
+
+}
+
+.form-control{
+
+    height:52px;
+
+    border-radius:12px;
+
+}
+
+.login-button{
+
+    width:100%;
+
+    height:52px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#2563eb;
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.login-button:hover{
+
+    background:#1d4ed8;
+
+}
+
+.bottom-links{
+
+    margin-top:20px;
+
+    text-align:center;
+
+}
+
+.bottom-links p{
+
+    margin-top:12px;
+
+}
+
+.bottom-links span{
+
+    color:#2563eb;
+
+    cursor:pointer;
+
+    font-weight:bold;
+
+}
