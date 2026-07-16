@@ -126,12 +126,9 @@ const handleSubmit = async (e) => {
                             }
 
                         />
-
-                        <button className="btn btn-primary">
-
-                            Add Category
-
-                        </button>
+<button className="btn btn-primary">
+    {editingId ? "Update Category" : "Add Category"}
+</button>
 
                     </form>
 

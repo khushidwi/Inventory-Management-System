@@ -13,6 +13,8 @@ const {
 
 router.get("/", getActivities);
 
+router.delete("/", clearActivities);
+
 router.delete("/:id", deleteActivity);
 
 module.exports = router;

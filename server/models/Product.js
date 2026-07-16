@@ -21,8 +21,9 @@ const productSchema = new mongoose.Schema({
 },
 
    category: {
-    type: String,
-    default: ""
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Category",
+    default: null
 },
 
     brand: {
@@ -54,11 +55,6 @@ const productSchema = new mongoose.Schema({
     type: String,
     default: ""
 },
-
-    image: {
-        type: String,
-        default: ""
-    },
 
     status: {
         type: String,

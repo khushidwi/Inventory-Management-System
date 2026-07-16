@@ -125,7 +125,7 @@ function Activity() {
 
         <Layout>
 
-            {/* PART 2 STARTS HERE */}
+            
             <div className="container">
 
     <div className="d-flex justify-content-between align-items-center mb-4">
