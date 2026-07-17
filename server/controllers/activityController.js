@@ -102,3 +102,36 @@ exports.deleteActivity = async (req, res) => {
     }
 
 };
+// ===============================
+// CLEAR ALL ACTIVITIES
+// ===============================
+
+exports.clearActivities = async (req, res) => {
+
+    try {
+
+        await Activity.deleteMany({});
+
+        res.status(200).json({
+
+            success: true,
+
+            message: "All Activities Cleared Successfully"
+
+        });
+
+    }
+
+    catch (error) {
+
+        res.status(500).json({
+
+            success: false,
+
+            message: error.message
+
+        });
+
+    }
+
+};
