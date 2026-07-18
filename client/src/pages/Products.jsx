@@ -182,7 +182,7 @@ const handleSearch = async (e) => {
 
                                             <td>{product.productName}</td>
 
-                                           <td>{product.category?.categoryName}</td>
+                                         <td>{product.category}</td>
 
                                             <td>₹{product.price}</td>
 
