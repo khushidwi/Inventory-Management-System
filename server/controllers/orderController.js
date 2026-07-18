@@ -1,5 +1,5 @@
 const Order = require("../models/Order");
-const updateInventory = require("../utils/inventoryUtils");
+const updateInventory = require("../utils/InventoryUtils");
 const { addActivity } = require("./activityController");
 
 // =============================
