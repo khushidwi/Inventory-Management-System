@@ -20,10 +20,9 @@ const productSchema = new mongoose.Schema({
     default: ""
 },
 
-   category: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: "Category",
-    default: null
+category: {
+    type: String,
+    default: ""
 },
 
     brand: {
