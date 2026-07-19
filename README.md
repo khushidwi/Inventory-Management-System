@@ -65,7 +65,7 @@ You can register a new user account using the **Register** page or use:
 ### Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Inventory-Management-System.git
+git clone https://github.com/khushidwi/Inventory-Management-System.git
 ```
 
 ### Install Backend
@@ -91,10 +91,10 @@ Create a `.env` file inside the **server** folder.
 
 ```env
 PORT=5000
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-EMAIL_USER=your_email@gmail.com
-EMAIL_PASS=your_app_password
+MONGODB_URI=mongodb_connection_string
+JWT_SECRET=secret_key
+EMAIL_USER=email@gmail.com
+EMAIL_PASS=app_password
 ```
 
 ---
