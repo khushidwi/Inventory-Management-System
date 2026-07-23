@@ -140,32 +140,21 @@ function UserLayout({ children }) {
 
                         </h3>
 <div className="d-flex align-items-center">
-
-    <img
-
-        src={
-            user?.profileImage
-                ?
-                `http://localhost:5000/uploads/${user.profileImage}`
-                :
-                "https://cdn-icons-png.flaticon.com/512/149/149071.png"
-        }
-
-        alt="profile"
-
-        className="rounded-circle me-3"
-
-        style={{
-
-            width: "45px",
-
-            height: "45px",
-
-            objectFit: "cover"
-
-        }}
-
-    />
+const API_URL = "https://inventory-management-system-zpbq.onrender.com";
+   <img
+    src={
+        user?.profileImage
+            ? `${API_URL}/uploads/${user.profileImage}`
+            : "https://cdn-icons-png.flaticon.com/512/149/149071.png"
+    }
+    alt="profile"
+    className="rounded-circle me-3"
+    style={{
+        width: "45px",
+        height: "45px",
+        objectFit: "cover"
+    }}
+/>
 
     <div>
 

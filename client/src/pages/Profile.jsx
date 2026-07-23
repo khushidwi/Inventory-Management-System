@@ -26,7 +26,7 @@ const [preview, setPreview] = useState(
     manager.profileImage
         ?
 
-        `http://localhost:5000/uploads/${manager.profileImage}`
+        `https://inventory-management-system-zpbq.onrender.com/uploads/${manager.profileImage}`
 
         :
 
